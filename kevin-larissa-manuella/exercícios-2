@@ -237,6 +237,49 @@ programa
 	}
 }
 
+
+EXERCÍCIO 6 - TARIFA POR IDADE
+/*
+ * Instituição: etecvav
+ * Data: 09/04/2026
+ * Autor: Manuella de Oliveira Salvador
+ * Descricao: Ler a idade do passageiro e determinar o tipo de tarifa:
+   Até 2 anos → Gratuita
+  De 3 a 12 anos → Meia tarifa
+  Acima de 12 anos → Tarifa completa
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+	 inteiro idade
+
+	 escreva("Qual é a idade do passageiro?\n")
+	 leia(idade)
+
+	 limpa()
+
+	 se (idade <= 2) {
+	  escreva("Para essa idade a passagem sai gratuita.\n")
+	 }
+	 senao se (idade <= 12) {
+	  escreva("Para essa idade a passagem sai como meia-tarifa.\n")
+	 }
+	 senao {
+	  escreva("Para essa idade a passagem sai como tarifa completa.\n")
+	 
+	 }
+	 
+	}
+}
+
+
+
+
+
+
+
 EXERCÍCIO 7 - VERIFICAR VOGAL
 /*
  * Instituição: etecvav
