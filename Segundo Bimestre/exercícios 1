@@ -121,3 +121,38 @@ int main() {
 
     return 0;
 }
+
+
+EXERCÍCIO 8
+// Instituição: etecvav
+// Data: 21/05/2026
+ //Autor:Manuella de Oliveira Salvador
+ //Descricao:Exiba a soma de todos os números pares e ímpares de zero até o número lido.
+ 
+#include <iostream>
+
+using namespace std;
+
+//declarar as variavéis
+int main() {
+    int numero;
+    int somapares = 0, somaimpares = 0;
+
+//inserir o número e ler ele
+    cout << "Digite um numero inteiro: ";
+    cin >> numero;
+
+//criar o laço de repetição para saber da soma
+    for(int i = 0; i <= numero; i++) {
+        if(i % 2 == 0) {
+            somapares += i;
+        } else {
+            somaimpares += i;
+        }
+    }
+//exibir a soma dos números pares e impares
+    cout << "Soma dos numeros pares: " << somapares << endl;
+    cout << "Soma dos numeros impares: " << somaimpares << endl;
+
+    return 0;
+}
